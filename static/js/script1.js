@@ -164,7 +164,7 @@ function countUsers() {
                     break;
                 case 'comeBackSoon':
                     classEl = document.getElementById('11.15');
-                    classElPar = x.querySelector('p');
+                    classElPar = classEl.querySelector('p');
                     count4++;
                     classElPar.innerHTML = count4;
                     break;
