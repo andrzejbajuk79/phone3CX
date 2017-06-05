@@ -1,0 +1,20 @@
+
+{% extends 'base.html' %}
+{% block head %}
+
+{% endblock %}
+{% block body %}
+<h1>Uzytkownik {{ name }}</h1>
+      <div class="box ">
+        <h2> {{ name  }}</h2>
+        <p> Imie:{{ ['name'] }}</p>
+        <p> Status:{{ ['currentProfile'] }}</p>
+        <p> Zajęty:{{ ['isBusy'] }}</p>
+          <p> {{['cTime'] }}</p>
+
+           <div class="progress" id="content">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                   aria-valuemin="0" aria-valuemax="100" style="width:{{ ['procent']}}%"></div>
+           </div>
+      </div>
+{% endblock %}

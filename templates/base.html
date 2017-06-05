@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+
+
+    <head lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+        <link rel = 'stylesheet' type="text/css" href="{{ url_for('static', filename='css/jquery-ui.min.css') }}">
+    {% block css %}
+
+    {% endblock %}
+
+        {% block head %}
+        <meta charset="UTF-8">
+        <title>BAASE</title>
+        {% endblock %}
+    </head>
+   <body>
+   <div class="container">
+        <br>
+             <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                       <ul class=" nav navbar-nav">
+                            <li><a href="/">ALL TEAM</a> </li>
+                            <li><a href="team_1">TEAM 1</a> </li>
+                            <li><a href="">TEAM 2</a> </li>
+                            <li><a href="">TEAM 3</a> </li>
+                        </ul>
+                      </div>
+                  <!--</div>-->
+                    <!--<div  class=" search navbar-right">-->
+                       <!--<input >-->
+                    <!--<button type="submit">szukaj</button>-->
+                    <!--</div>-->
+                <!--</div>&lt;!&ndash;/.container-fluid &ndash;&gt;-->
+              </nav>
+
+    {% block body %}
+
+    {% endblock %}
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <script src="{{ url_for('static', filename='js/jquery-ui.min.js') }}" ></script>
+    <script src="{{ url_for('static', filename='js/moment.js') }}" ></script>
+   {% block js %}
+
+    {% endblock %}
+
+   </body>
+</html>

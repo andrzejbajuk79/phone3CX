@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+    background: lightblue;
+}
+/*
+ * Formatting the header area
+ */
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+}
+.container {
+    width:1400px;
+    margin: 0 auto;
+    background: grey ;
+}
+h3 {
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #999;
+}
+.menu {
+    float: right;
+    margin-top: 8px;
+}
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px black solid;
+}
+.box h2 {
+    border: 2px black solid;\
+    background: lightgoldenrodyellow;
+    text-align: center;
+    letter-spacing: -2px;
+}
+h3 {
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+.box,h2 {
+    font-size: 20px;
+    color: black;
+}
+.box,p {
+    font-size: 15px;
+    color: black;
+}
+.red {
+    background: #ff6a00;
+ }
+.green {
+    background:#0d900c;
+}
+.dontDisturb {
+    background-color: #ff1f11;
+}
+.away {
+    background-color: #ffd682;
+}
+.grey {
+    background: #585658;
+}
+.grey>h3,.grey>h2 {
+    color: #696666;
+}
+
+.busy {
+    background:#fffc18;
+}
+.ringing {
+    background:#23ff21;
+}
+.brake {
+    background: #ff6565;
+}
+.comeBackSoon {
+    background: rgba(125, 243, 0, 0.66);
+}
+#progressBar {
+    height: 22px;
+    border: 1px solid #111;
+    background-color: lightsteelblue;
+    background-color: #ff5928;
+}
+#progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    width: 0;
+    background-color: #0099ff;
+}
+.search {
+    padding: 15px;
+}
+ #table1 {
+    font-size: 30px;
+    height: 50px;
+    background-color: green;
+}
+ table {
+     float: left;
+ }
+ table, th, td {
+    border: 3px solid black;
+}
+ th, td {
+     padding: 15px;
+ }
+ table {
+    margin: 10px;
+    /*border-collapse: initial;*/
+    /*border-spacing: 1px;*/
+    /*background: #245875;*/
+ }
+td {
+        width: 120px;
+    height: 120px;
+    margin: 0;
+    padding:5px;
+    text-align: center;
+    position: relative;
+}
+td>img {
+    position: absolute;
+    width: 30px;
+    left: 4px;
+    top: 5px;
+}
+td>p {
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 30px;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+}
+td h2 {
+    margin: 0;
+}
+
